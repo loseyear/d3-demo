@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>D3 Radar Chart</title>
+<!-- Google fonts -->
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+<!-- D3.js -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.6/d3.min.js" charset="utf-8"></script>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!-- 容器 -->
+<div class="radarChart"></div>
+<!-- 抽象方法 -->
+<script src="radarChart.js"></script>
+<!-- 模拟数据 -->
+<script src="data.js"></script>
+<!-- 初始化 -->
+<script>
+RadarChart(
+  ".radarChart",
+  data,
+)
+</script>
+</body>
+</html>
